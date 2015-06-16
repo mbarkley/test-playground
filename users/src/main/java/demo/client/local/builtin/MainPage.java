@@ -16,7 +16,7 @@ import org.livespark.formmodeler.rendering.client.view.ListView;
 import org.slf4j.Logger;
 
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.VerticalPanel;
+import com.google.gwt.user.client.ui.FlowPanel;
 
 @Page( role = DefaultPage.class )
 @Templated
@@ -29,7 +29,7 @@ public class MainPage extends Composite {
 
     @Inject
     @DataField
-    private VerticalPanel container;
+    private FlowPanel container;
 
     @Inject
     private SyncBeanManager beanManager;
