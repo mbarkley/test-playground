@@ -54,6 +54,10 @@ input,textarea {
 	border-radius: 5px;
 }
 
+.create-container {
+	margin-bottom: 5px;
+}
+
 .disabled {
 	cursor: pointer !important;
 }
