@@ -17,7 +17,7 @@
 <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 
 <script type="text/javascript">
-  erraiJaxRsApplicationRoot = "/demo/rest";
+  erraiJaxRsApplicationRoot = "<%=contextPath%>/rest";
 </script>
 <script type="text/javascript" language="javascript" src="<%=contextPath%>/app/app.nocache.js"></script>
 </head>
